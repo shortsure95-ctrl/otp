@@ -131,6 +131,27 @@
       transition: transform 0.3s;
     }
     #chatIcon:hover { transform: scale(1.1); }
+
+    /* New Login Button */
+    .login-btn {
+      display: block;
+      width: fit-content;
+      margin: 30px auto 0;
+      padding: 14px 26px;
+      background: linear-gradient(135deg, #00b894, #00cec9);
+      color: #fff;
+      border-radius: 12px;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 18px;
+      text-align: center;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+      transition: transform 0.2s, background 0.3s;
+    }
+    .login-btn:hover {
+      background: linear-gradient(135deg, #00cec9, #00b894);
+      transform: scale(1.05);
+    }
   </style>
 </head>
 <body>
@@ -173,6 +194,9 @@
       <a href="https://wa.me/8801716286090" target="_blank">WhatsApp</a>
       <a href="mailto:youremail@example.com">Email</a>
     </div>
+
+    <!-- New Login Button -->
+    <a href="https://example.com/login" target="_blank" class="login-btn">🔐 আমাদের পেইড সার্ভিস নিতে লগইন করুন</a>
   </main>
 
   <!-- Floating Telegram Icon -->
